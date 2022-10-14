@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 4ecff254649448942a9625afa46b4bd0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bebas Neue
+  fontNames:
+  - Bebas Neue
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: edb2e550deff4a143805a69241acbe83, type: 3}
+  - {fileID: 12800000, guid: 993f40c13f455b54c8ee8e555fc117f8, type: 3}
+  - {fileID: 12800000, guid: a0dee685d474a734aa51c6ab65215cbf, type: 3}
+  - {fileID: 12800000, guid: 3de2296690d76dc46acd5acc512d7e4f, type: 3}
+  - {fileID: 12800000, guid: 0032ec0875ac85647892e88b2439505a, type: 3}
+  - {fileID: 12800000, guid: d33317191db5cd642a0ecef6c0ac0f09, type: 3}
+  - {fileID: 12800000, guid: f974692950c11e0428319733a4dd1484, type: 3}
+  - {fileID: 12800000, guid: 8395e0d913b69514ab9888ece5bc4149, type: 3}
+  - {fileID: 12800000, guid: 58b1d02a77206d449b542ada7b9849d7, type: 3}
+  - {fileID: 12800000, guid: 4e90359a932c1dc4bb8a90e27266600b, type: 3}
+  - {fileID: 12800000, guid: 10b1ae4bacd5d5446a6fab90db812460, type: 3}
+  - {fileID: 12800000, guid: 07376f7b9c6e59b43827f1f77431d852, type: 3}
+  - {fileID: 12800000, guid: 06ed77ec8cdc6cb49ba1847689e38244, type: 3}
+  - {fileID: 12800000, guid: 470058fc09d706c4086af94c31567579, type: 3}
+  - {fileID: 12800000, guid: 007fff4f7d19a554fae45a2a9b6675b9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

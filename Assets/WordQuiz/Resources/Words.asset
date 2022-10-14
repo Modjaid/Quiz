@@ -1,0 +1,848 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b762a7796d94449896cd40528add32, type: 3}
+  m_Name: Words
+  m_EditorClassIdentifier: 
+  questions:
+  - questionImage:
+    - {fileID: 21300000, guid: 63a764885ae3f7148aaba26469948597, type: 3}
+    - {fileID: 21300000, guid: acdcd903bb65d524aa235287f8cb41a3, type: 3}
+    - {fileID: 21300000, guid: a5f4b3f378b5e8b4f8abdea4e9a9c64e, type: 3}
+    - {fileID: 21300000, guid: bbacae28f22e7d24bb927be5fb35e3ac, type: 3}
+    answer: "\u0432\u043E\u0434\u0430"
+    English: Water
+  - questionImage:
+    - {fileID: 21300000, guid: c10a1216f29a55c4e81618af1d2681b0, type: 3}
+    - {fileID: 21300000, guid: 38fd21022a1a6e14cabf74c7e42c1213, type: 3}
+    - {fileID: 21300000, guid: 8659f40786174da4e9aaf21dfd6e1a7c, type: 3}
+    - {fileID: 21300000, guid: 5df9a6f2003812b48a682b29840ced43, type: 3}
+    answer: "\u0432\u0438\u043D\u043E"
+    English: Wine
+  - questionImage:
+    - {fileID: 21300000, guid: a1e868cfde581044d9526a03309ad48c, type: 3}
+    - {fileID: 21300000, guid: 41270f1b63587c84ea6609c22d167975, type: 3}
+    - {fileID: 21300000, guid: bc1c91e25fb47aa47a7ab915ff3efb27, type: 3}
+    - {fileID: 21300000, guid: a965a95beed9eb44db27bb383c28fd4b, type: 3}
+    answer: "\u0433\u043B\u0430\u0437"
+    English: Eye
+  - questionImage:
+    - {fileID: 21300000, guid: 5547d3ffb538e7d4b8f0aba35c9d266f, type: 3}
+    - {fileID: 21300000, guid: d98a9282940367248b9bb68099d25690, type: 3}
+    - {fileID: 21300000, guid: d1721c397a05257449375cf7f156d54f, type: 3}
+    - {fileID: 21300000, guid: 4596b48824801cc47950af45c2046950, type: 3}
+    answer: "\u0430\u0440\u043C\u0438\u044F"
+    English: army
+  - questionImage:
+    - {fileID: 21300000, guid: 971c035a1acf8f3469bdec5f718ec8c3, type: 3}
+    - {fileID: 21300000, guid: ca3a7caf66781fa448d359a0d72b43ec, type: 3}
+    - {fileID: 21300000, guid: 3f7d90a2da8f7824e849d9a6f42f5afd, type: 3}
+    - {fileID: 21300000, guid: 7685e092dcd02b54496479113689a30b, type: 3}
+    answer: "\u0430\u043D\u0430\u0440\u0445\u0438\u044F"
+    English: anarchy
+  - questionImage:
+    - {fileID: 21300000, guid: 18d628b28d069a74091c2ad8adb3bb2a, type: 3}
+    - {fileID: 21300000, guid: 76d5ae2342d83b1429c35300ba616e58, type: 3}
+    - {fileID: 21300000, guid: ed5ad3a09b79c434f95fb6b7e8b0064b, type: 3}
+    - {fileID: 21300000, guid: 7d49c6e953a96dd429cffdcdbfe764f9, type: 3}
+    answer: "\u0432\u0445\u043E\u0434"
+    English: entrance
+  - questionImage:
+    - {fileID: 21300000, guid: 0362a9959f89b2647958a226be8f1a93, type: 3}
+    - {fileID: 21300000, guid: f09bf6f0234335c4eaef45a61536e12b, type: 3}
+    - {fileID: 21300000, guid: 911529f78082aec41ae78c1d87fd826a, type: 3}
+    - {fileID: 21300000, guid: 426998f56fb90d7468d9a7beab54f178, type: 3}
+    answer: "\u0431\u0435\u0437\u0443\u043C\u0438\u0435"
+    English: madness
+  - questionImage:
+    - {fileID: 21300000, guid: 51adb31b9b3211d4794e6542b398ddb7, type: 3}
+    - {fileID: 21300000, guid: 0afa8581809136943b407436c6e1013c, type: 3}
+    - {fileID: 21300000, guid: 2de60576fe0628140a659ff5c416f85a, type: 3}
+    - {fileID: 21300000, guid: c85eac2010ceb8140900e675d4152c56, type: 3}
+    answer: "\u0433\u0440\u0438\u043B\u044C"
+    English: Grill
+  - questionImage:
+    - {fileID: 21300000, guid: 6f0567569340d4b4888530d4ff375508, type: 3}
+    - {fileID: 21300000, guid: b4e102f507d70c146921e97175c5d90b, type: 3}
+    - {fileID: 21300000, guid: 7c2aee8134826e541b4d3e1e37062331, type: 3}
+    - {fileID: 21300000, guid: d39b3dfe327212645bf1f7dbc761d359, type: 3}
+    answer: "\u0434\u0435\u043D\u044C\u0433\u0438"
+    English: money
+  - questionImage:
+    - {fileID: 21300000, guid: 54d2e02c8489f714bbb53d7b93384f88, type: 3}
+    - {fileID: 21300000, guid: cc4133239f0cdb14485abc2e23d88c4a, type: 3}
+    - {fileID: 21300000, guid: 00f2dac39285a574aaa260445a18ddba, type: 3}
+    - {fileID: 21300000, guid: e91e47ddce5b85644a8c3bf47b331eb6, type: 3}
+    answer: "\u0434\u0435\u0440\u0435\u0432\u043E"
+    English: wood
+  - questionImage:
+    - {fileID: 21300000, guid: 18ccd7a339c58a4419fcc0c2f1e63281, type: 3}
+    - {fileID: 21300000, guid: a08050459069b704bad7e87362eb7aae, type: 3}
+    - {fileID: 21300000, guid: a2e4610e4851d524ba16943b04eeac64, type: 3}
+    - {fileID: 21300000, guid: bf6d1d5578163884785c3eba48a38d3b, type: 3}
+    answer: "\u0437\u0430\u043B"
+    English: Hall
+  - questionImage:
+    - {fileID: 21300000, guid: 3983b415fb37e5f48bd6d9a34c20d642, type: 3}
+    - {fileID: 21300000, guid: 04952f334d895d64fbfda381a3901d7d, type: 3}
+    - {fileID: 21300000, guid: 0b4cdf9512cf8474fb663a9a045ff272, type: 3}
+    - {fileID: 21300000, guid: 25527af133c8d8f4dac9fa4533a942f4, type: 3}
+    answer: "\u0437\u0432\u0435\u0437\u0434\u0430"
+    English: star
+  - questionImage:
+    - {fileID: 21300000, guid: 9073dbded594f30449f7bb7a85ec106c, type: 3}
+    - {fileID: 21300000, guid: bb5d2ba4a8cb350488008e6b66909a94, type: 3}
+    - {fileID: 21300000, guid: ae3ca6526067c774db6ea68c89e0f26d, type: 3}
+    - {fileID: 21300000, guid: 69603d9505c5cae49b662376756255db, type: 3}
+    answer: "\u0437\u043E\u043B\u043E\u0442\u043E"
+    English: Gold
+  - questionImage:
+    - {fileID: 21300000, guid: 49f02328751001c4a977fc2250cfceb6, type: 3}
+    - {fileID: 21300000, guid: 17e32ba369c88944b92ef578d8a0167c, type: 3}
+    - {fileID: 21300000, guid: 31287714390209b4086c62b27fb7c4b1, type: 3}
+    - {fileID: 21300000, guid: 77ca5f1502d678443ad91745e3f75898, type: 3}
+    answer: "\u0438\u0433\u0440\u0430"
+    English: game
+  - questionImage:
+    - {fileID: 21300000, guid: abd056dbd31575748a0ed2fd7a4991f6, type: 3}
+    - {fileID: 21300000, guid: 9e01fc1d63ed66d46958854a586e0293, type: 3}
+    - {fileID: 21300000, guid: e38181f1a7d89b643a03b7c106dde6d3, type: 3}
+    - {fileID: 21300000, guid: b883c6bb697759845a61f8670624ffeb, type: 3}
+    answer: "\u0438\u043C\u043F\u0435\u0440\u0438\u044F"
+    English: empire
+  - questionImage:
+    - {fileID: 21300000, guid: 6c947405597c4e64c997638a1565a1e0, type: 3}
+    - {fileID: 21300000, guid: 6b2fa960368e1144bb976ba44d71c2a6, type: 3}
+    - {fileID: 21300000, guid: fa3c7077a7cdc364a9396525ba8d1edc, type: 3}
+    - {fileID: 21300000, guid: c1cfaf3f33ec6a148a8c8e8f2da8ff0d, type: 3}
+    answer: "\u043A\u043D\u0438\u0433\u0430"
+    English: book
+  - questionImage:
+    - {fileID: 21300000, guid: 200b2634342f04d438e2b5000e32a90c, type: 3}
+    - {fileID: 21300000, guid: 281eb1c01fd29f7479d6016288b6129a, type: 3}
+    - {fileID: 21300000, guid: 69182bc2b54cf6a4bbf1a276346e8b18, type: 3}
+    - {fileID: 21300000, guid: 68beb1c43e28dda40ae4dd4c7f9e3713, type: 3}
+    answer: "\u043A\u043E\u043D\u0444\u0435\u0442\u0430"
+    English: candy
+  - questionImage:
+    - {fileID: 21300000, guid: 27e50d74cf71bde49ac189c6b860d85b, type: 3}
+    - {fileID: 21300000, guid: 38b137c2c31a2e2408a5f9b2b9a758fb, type: 3}
+    - {fileID: 21300000, guid: 9c52f445161ac7149a297baac77d9dd7, type: 3}
+    - {fileID: 21300000, guid: 71b5ed67aaac368468b0df87511e6dc3, type: 3}
+    answer: "\u043A\u043E\u0440\u0437\u0438\u043D\u0430"
+    English: basket
+  - questionImage:
+    - {fileID: 21300000, guid: 42ffd36254c9236428db112139f17dca, type: 3}
+    - {fileID: 21300000, guid: 71af8b4d2624cbc4db40bd114ed38ec4, type: 3}
+    - {fileID: 21300000, guid: 20e291d839c4d4b488febf5d02bd888a, type: 3}
+    - {fileID: 21300000, guid: ae6608e9602253f419c0eba5b35ff96c, type: 3}
+    answer: "\u043A\u043E\u0448\u043A\u0430"
+    English: cat
+  - questionImage:
+    - {fileID: 21300000, guid: b7052b3a8270723418fadd73631b3cdc, type: 3}
+    - {fileID: 21300000, guid: bb59d77189b56c649947840c585b6780, type: 3}
+    - {fileID: 21300000, guid: 7a5489adee5dca24facc59b2c8d5e728, type: 3}
+    - {fileID: 21300000, guid: 72abf2c0a9eb8a54fa3e7f4ade08457c, type: 3}
+    answer: "\u043A\u0440\u043E\u0432\u0430\u0442\u044C"
+    English: bed
+  - questionImage:
+    - {fileID: 21300000, guid: 337d478490ebf424faace104a9d62b7b, type: 3}
+    - {fileID: 21300000, guid: b8b4556d5da50b744b8e71904038a658, type: 3}
+    - {fileID: 21300000, guid: c6fed64b96b154b4ca74cbffd3be9117, type: 3}
+    - {fileID: 21300000, guid: 0a5dc4701e0349d498998e7f3c646d23, type: 3}
+    answer: "\u043A\u0440\u044B\u043B\u043E"
+    English: wing
+  - questionImage:
+    - {fileID: 21300000, guid: de03f5b2ade72a54bb4f82d3dde83bc2, type: 3}
+    - {fileID: 21300000, guid: 2a5ccd02ac890e9419e1dbcc0b27da34, type: 3}
+    - {fileID: 21300000, guid: f055456ef061de84fbf9b7e0abd5dcea, type: 3}
+    - {fileID: 21300000, guid: 9c868f4f64262f44199ddefec837b792, type: 3}
+    answer: "\u043B\u0430\u043F\u0430"
+    English: paw
+  - questionImage:
+    - {fileID: 21300000, guid: ac18b824505f3214fa71b05408eb9710, type: 3}
+    - {fileID: 21300000, guid: 81ad2bcf0d35a9a40b19608b4045970e, type: 3}
+    - {fileID: 21300000, guid: 68755546426f8744f9b28cad5d57ce88, type: 3}
+    - {fileID: 21300000, guid: e4546ca6b106e4546b9ca2c603247df8, type: 3}
+    answer: "\u043C\u0430\u0441\u043B\u043E"
+    English: oil
+  - questionImage:
+    - {fileID: 21300000, guid: 95d891262eb93be4bbac587d97bbb297, type: 3}
+    - {fileID: 21300000, guid: a8d0b8ef152532948b18fd511961d0d5, type: 3}
+    - {fileID: 21300000, guid: 0eeb34b5ee6b3a54cb77b46a67a2b674, type: 3}
+    - {fileID: 21300000, guid: 4818bfddbd84de045a318d2320a0102c, type: 3}
+    answer: "\u043C\u0451\u0434"
+    English: honey
+  - questionImage:
+    - {fileID: 21300000, guid: 25afdfad77fc7074994313abc41c7f17, type: 3}
+    - {fileID: 21300000, guid: 05da627eb529289429bf51fcf54592dd, type: 3}
+    - {fileID: 21300000, guid: b40aea0ab9d1c944e921ceadeae897ee, type: 3}
+    - {fileID: 21300000, guid: 108c9673c647e2c4589925d914fe6aee, type: 3}
+    answer: "\u043C\u0435\u0441\u0442\u044C"
+    English: revenge
+  - questionImage:
+    - {fileID: 21300000, guid: cc7423279513e1c4a9ff9bdc17659431, type: 3}
+    - {fileID: 21300000, guid: cf0a2cbd100839146b8a86a7cef29da0, type: 3}
+    - {fileID: 21300000, guid: b0aef0a50f833a34cbeff036307fe7a4, type: 3}
+    - {fileID: 21300000, guid: fe3f8153e88d5a244907f02e7efb2d89, type: 3}
+    answer: "\u043C\u0438\u0433\u0440\u0435\u043D\u044C"
+    English: migraine
+  - questionImage:
+    - {fileID: 21300000, guid: 5fb8a29ab0fbd954aa7a1ce001f15c3f, type: 3}
+    - {fileID: 21300000, guid: 1ef83aedf17250c4da109cfe07bd292f, type: 3}
+    - {fileID: 21300000, guid: 54bae2254469e2a4fb94c2fb9c7398f9, type: 3}
+    - {fileID: 21300000, guid: 7be14adffca95e94a8362d710a752b98, type: 3}
+    answer: "\u043C\u043E\u0440\u0435"
+    English: sea
+  - questionImage:
+    - {fileID: 21300000, guid: 6e6d0f75f60ff8a49a39521187919620, type: 3}
+    - {fileID: 21300000, guid: f2434ffe151a8724694dea6e219b4725, type: 3}
+    - {fileID: 21300000, guid: 474e11587a4cab5469bc317953701b40, type: 3}
+    - {fileID: 21300000, guid: bb614c72fd28cc940a2acd473aa3b3c9, type: 3}
+    answer: "\u043D\u0430\u043F\u0438\u0442\u043E\u043A"
+    English: drink
+  - questionImage:
+    - {fileID: 21300000, guid: 03bcfdb612c63c64fb174b5b3424d150, type: 3}
+    - {fileID: 21300000, guid: af7fa1a4784271d49aec68ce15777fec, type: 3}
+    - {fileID: 21300000, guid: a11e4f10c2201f54c9cde38f2fce4084, type: 3}
+    - {fileID: 21300000, guid: daa0c012f87bfd94b930473ed50eb003, type: 3}
+    answer: "\u043D\u043E\u0432\u043E\u0441\u0442\u0438"
+    English: news
+  - questionImage:
+    - {fileID: 21300000, guid: 820e98eb2a0841d4baec227706181c27, type: 3}
+    - {fileID: 21300000, guid: e6ceeb32cb80ffe4f914b0d05a8f7b92, type: 3}
+    - {fileID: 21300000, guid: eff529ee2cfed514ca2f0b20cbf3ff06, type: 3}
+    - {fileID: 21300000, guid: 859a29cd2d0ff3e48b6a8b3c0c449f6f, type: 3}
+    answer: "\u0431\u0438\u043D\u0442"
+    English: bandage
+  - questionImage:
+    - {fileID: 21300000, guid: efd9ae42bc52e22438ecb0f2d70d555c, type: 3}
+    - {fileID: 21300000, guid: 373ea7198102f7749bdc05c17ec5b79c, type: 3}
+    - {fileID: 21300000, guid: e521b8f36ee6a334a9624ed75ae8223e, type: 3}
+    - {fileID: 21300000, guid: bbaa1f4be4f9db64cadd74cc61fe6d10, type: 3}
+    answer: "\u043E\u0445\u043E\u0442\u0430"
+    English: hunting
+  - questionImage:
+    - {fileID: 21300000, guid: 55090a6c70a5ded4c9757c94d574f215, type: 3}
+    - {fileID: 21300000, guid: 1dacb15f9ef0fc642806f8d77336d18f, type: 3}
+    - {fileID: 21300000, guid: b6ee08c5f73f52944bdc138a56323988, type: 3}
+    - {fileID: 21300000, guid: 852e44f8ab7e14d4186e5236b865d568, type: 3}
+    answer: "\u0442\u0430\u043D\u043A"
+    English: tank
+  - questionImage:
+    - {fileID: 21300000, guid: e9879b0dee64884488f4aa78b0ffc30c, type: 3}
+    - {fileID: 21300000, guid: 582fcb1873cb7c8449dc9fc3a33cbb89, type: 3}
+    - {fileID: 21300000, guid: bb5ebedaebec86743a8375444a07731c, type: 3}
+    - {fileID: 21300000, guid: 3ccd30ea3d7146f4d917b784638855fe, type: 3}
+    answer: "\u043F\u0438\u043B\u044E\u043B\u044F"
+    English: pill
+  - questionImage:
+    - {fileID: 21300000, guid: 63c838cd7bb78e441b71fe0a94437cb6, type: 3}
+    - {fileID: 21300000, guid: 65d7a2d7776e2764a85d59e4f199b583, type: 3}
+    - {fileID: 21300000, guid: 52251cab9a2f93744ae18d419dcbb882, type: 3}
+    - {fileID: 21300000, guid: be6c0d4d762421b4bac7feb9a9275d0b, type: 3}
+    answer: "\u043F\u043E\u0435\u0437\u0434"
+    English: train
+  - questionImage:
+    - {fileID: 21300000, guid: f6337a45e7d2ff34498114dd24e38ca1, type: 3}
+    - {fileID: 21300000, guid: 3bbfb9f6cb7cb9941b8b8853d7bbda65, type: 3}
+    - {fileID: 21300000, guid: f383dd204110e634d83d973f9eadc12d, type: 3}
+    - {fileID: 21300000, guid: a4ca73baaf5a7284d816612c0e83cd4b, type: 3}
+    answer: "\u043F\u043E\u043B\u0435"
+    English: field
+  - questionImage:
+    - {fileID: 21300000, guid: 3606053a5b679c84ba56f59c6001dae2, type: 3}
+    - {fileID: 21300000, guid: acdff9d01556c5b41ba46fe5bd04b35c, type: 3}
+    - {fileID: 21300000, guid: d5bd173fecc8e6c45b6b75e70f37cb4b, type: 3}
+    - {fileID: 21300000, guid: ba8a957325321fc49a1c62754482671e, type: 3}
+    answer: "\u043F\u0440\u0438\u0437\u0440\u0430\u043A"
+    English: ghost
+  - questionImage:
+    - {fileID: 21300000, guid: 5a6a3949aa08a1448a989c6c66b35ff3, type: 3}
+    - {fileID: 21300000, guid: 400017b8631fcea43972a77fe4aa14eb, type: 3}
+    - {fileID: 21300000, guid: a392f3a709ed64146909127c1fae35ec, type: 3}
+    - {fileID: 21300000, guid: ea8e24dbcb15c0c4d936787e85212e76, type: 3}
+    answer: "\u043F\u0443\u0442\u044C"
+    English: way
+  - questionImage:
+    - {fileID: 21300000, guid: 053dfffd47a8f31469d7bf7c81f0e4af, type: 3}
+    - {fileID: 21300000, guid: c9e8f68dd78f7cd49a9c7df93fb76ce3, type: 3}
+    - {fileID: 21300000, guid: 246597a05010ee4408149a9d5d65f71f, type: 3}
+    - {fileID: 21300000, guid: 3f77584cb3efe1749b6fc0f3e2737c45, type: 3}
+    answer: "\u0440\u0430\u0439\u043E\u043D"
+    English: district
+  - questionImage:
+    - {fileID: 21300000, guid: 0c31097b8bb534542b4bc8a1996281fd, type: 3}
+    - {fileID: 21300000, guid: b16e34f160127a740b3481b323f4c5ae, type: 3}
+    - {fileID: 21300000, guid: e0c8f9830febaa943ba3d2e64af80df7, type: 3}
+    - {fileID: 21300000, guid: 79a1387da517d804f8c29494099974c1, type: 3}
+    answer: "\u0440\u0430\u043A\u0435\u0442\u0430"
+    English: rocket
+  - questionImage:
+    - {fileID: 21300000, guid: fc585e7b6a726dd41bae8be0792875e6, type: 3}
+    - {fileID: 21300000, guid: 191db53ecc3b61544b8302d7bbcf86d4, type: 3}
+    - {fileID: 21300000, guid: 7c7b9b22f4841354c8a16d86c68a29cb, type: 3}
+    - {fileID: 21300000, guid: 341a248094b0cdd48adc89b49a9451f6, type: 3}
+    answer: "\u0440\u0438\u043C"
+    English: Rome
+  - questionImage:
+    - {fileID: 21300000, guid: f652ca1577da8514d9110e347846dcf6, type: 3}
+    - {fileID: 21300000, guid: 1898575e1a7e98f4c93bd9a1396b4e34, type: 3}
+    - {fileID: 21300000, guid: 1af56d5e54067404ea760b4a727bf898, type: 3}
+    - {fileID: 21300000, guid: cca04221ea3ef574191978843c6c972d, type: 3}
+    answer: "\u0440\u0443\u043A\u0430"
+    English: arm
+  - questionImage:
+    - {fileID: 21300000, guid: ccd10625e7560ce45a1d9119132150a4, type: 3}
+    - {fileID: 21300000, guid: 7e0872f1c45289c44bc37cf009317a44, type: 3}
+    - {fileID: 21300000, guid: a22d30eab6f8f5149962d79862971e41, type: 3}
+    - {fileID: 21300000, guid: fc5776b480809b64daae898f2746f314, type: 3}
+    answer: "\u0440\u0443\u0447\u043A\u0430"
+    English: handle
+  - questionImage:
+    - {fileID: 21300000, guid: a2b33f6f1836d97459e2bc26d3c09761, type: 3}
+    - {fileID: 21300000, guid: b24ae5a653c10c742b4248cf0548554c, type: 3}
+    - {fileID: 21300000, guid: 1df4202dac1ec584fbf6d5110f98b493, type: 3}
+    - {fileID: 21300000, guid: dbba24ca66aff7e42a090b4a1d727bae, type: 3}
+    answer: "\u0440\u044B\u0431\u0430\u043B\u043A\u0430"
+    English: fishing
+  - questionImage:
+    - {fileID: 21300000, guid: 4664fa6917881294bafd2711cac9d376, type: 3}
+    - {fileID: 21300000, guid: 2ec723e77d0420d48a2eefa813679752, type: 3}
+    - {fileID: 21300000, guid: ad98b9aaf24a197478bf98588e1030d0, type: 3}
+    - {fileID: 21300000, guid: 0146b3f55a3e69d40ad3c64cca2f0ae6, type: 3}
+    answer: "\u0440\u044B\u0446\u0430\u0440\u044C"
+    English: knight
+  - questionImage:
+    - {fileID: 21300000, guid: 3a71aa3bc8fdd3943b2dc65d7439cbf3, type: 3}
+    - {fileID: 21300000, guid: 60a417c87be1e324aa3c1045cb1d733c, type: 3}
+    - {fileID: 21300000, guid: 301264592624f7c4abafe31977030543, type: 3}
+    - {fileID: 21300000, guid: 676b4a0373f2c0048b56d3e6f849fac8, type: 3}
+    answer: "\u0442\u0430\u0439\u043D\u0430"
+    English: secret
+  - questionImage:
+    - {fileID: 21300000, guid: 61e1b356d311fd648beb8f908c9639d8, type: 3}
+    - {fileID: 21300000, guid: 3cd4e2c3bb5b7ca4d94cd4796b6b6697, type: 3}
+    - {fileID: 21300000, guid: 927448b2b07b21a4589914ede0335ce2, type: 3}
+    - {fileID: 21300000, guid: 964df36926f2ad44fa8ac4c697963ab8, type: 3}
+    answer: "\u0442\u043E\u0432\u0430\u0440"
+    English: product
+  - questionImage:
+    - {fileID: 21300000, guid: f7f3b3c83022bcf4f948b940b16640b1, type: 3}
+    - {fileID: 21300000, guid: c30f1542a6927b74589386735645b494, type: 3}
+    - {fileID: 21300000, guid: 9edf83ed489103f448a1c06fea04f2b7, type: 3}
+    - {fileID: 21300000, guid: cd932fa1b2eb5cd4a9b9c3a55ef1b719, type: 3}
+    answer: "\u0442\u0440\u0430\u0432\u0430"
+    English: grass
+  - questionImage:
+    - {fileID: 21300000, guid: bc73c8698af6699449bd9c8fcf6ad6ff, type: 3}
+    - {fileID: 21300000, guid: 6c4105e8366ec8b4e9d7059f3fc5fc69, type: 3}
+    - {fileID: 21300000, guid: 700f4244c0ed2a44fbc7f88870038068, type: 3}
+    - {fileID: 21300000, guid: ab265cc1793a3544fb1490a82e885f5a, type: 3}
+    answer: "\u0442\u0440\u043E\u043F\u0430"
+    English: trail
+  - questionImage:
+    - {fileID: 21300000, guid: e9a891a77fc2cb9418e8cf74dd1620dd, type: 3}
+    - {fileID: 21300000, guid: 59f2698f4a2f19d479680ae97b5028ec, type: 3}
+    - {fileID: 21300000, guid: e8536c43c334b584dbce3c329f2e4c9d, type: 3}
+    - {fileID: 21300000, guid: 333c52103a73bed409befea7bc885e74, type: 3}
+    answer: "\u0443\u0441\u043F\u0435\u0445"
+    English: success
+  - questionImage:
+    - {fileID: 21300000, guid: 586453dd782fbf0478697b1f26c1296a, type: 3}
+    - {fileID: 21300000, guid: 12b61bd929d9e1b4e89e896b437834a4, type: 3}
+    - {fileID: 21300000, guid: 2ebbe90a4ed56264a92f8a380797d5f2, type: 3}
+    - {fileID: 21300000, guid: b86269baedda6054786f2c8451e23d82, type: 3}
+    answer: "\u0448\u0443\u0431\u0430"
+    English: Furcoat
+  - questionImage:
+    - {fileID: 21300000, guid: c4dc2ff8fdb86774aa748c986db4fab6, type: 3}
+    - {fileID: 21300000, guid: 90170c0473c5ea1418b94e1f149a9a45, type: 3}
+    - {fileID: 21300000, guid: 44081f0710c25594aa287844f377ab1b, type: 3}
+    - {fileID: 21300000, guid: f38ea4ee80392854bb213a55c6c838b4, type: 3}
+    answer: "\u0432\u0435\u043D\u043E\u043A"
+    English: wreath
+  - questionImage:
+    - {fileID: 21300000, guid: 52191f34dc6ad3c4995552b1ee8ffb8b, type: 3}
+    - {fileID: 21300000, guid: f0925479c7c863444b8487bae5d66b0f, type: 3}
+    - {fileID: 21300000, guid: 6e3b4b7bc8feb9149b84f740cd9ccee7, type: 3}
+    - {fileID: 21300000, guid: 714d4a99f83c3004fbd63c4f660ae571, type: 3}
+    answer: "\u0432\u0435\u0441\u043D\u0430"
+    English: Spring
+  - questionImage:
+    - {fileID: 21300000, guid: dea90fea432da7744bfcc95c86aab8be, type: 3}
+    - {fileID: 21300000, guid: 5dd4e084cab147b469cad6b72123e8c1, type: 3}
+    - {fileID: 21300000, guid: 7cad680e0a68ab44f8e68af721bf7a8a, type: 3}
+    - {fileID: 21300000, guid: e8c9dded28372f74ab7a61166bbbcdd3, type: 3}
+    answer: "\u0437\u0430\u0433\u0430\u0440"
+    English: tan
+  - questionImage:
+    - {fileID: 21300000, guid: 3c748707ab49c224581d22fde75e831f, type: 3}
+    - {fileID: 21300000, guid: ae7a7834297d7044d9b8d90e0b3b0230, type: 3}
+    - {fileID: 21300000, guid: fe4d4eb91ffb8af4cb9fa2fcd5f5f5e8, type: 3}
+    - {fileID: 21300000, guid: 662a4dc266bd94e41ad56524f0b10c7a, type: 3}
+    answer: "\u0437\u043E\u043B\u0430"
+    English: Ash
+  - questionImage:
+    - {fileID: 21300000, guid: f6304492e7765e74c8c33130ca857083, type: 3}
+    - {fileID: 21300000, guid: cc8ebf5a5833f4c43a5949b53dbb5a7e, type: 3}
+    - {fileID: 21300000, guid: fd88c8530d0fc45498c86a7de447fdc9, type: 3}
+    - {fileID: 21300000, guid: 66dba409418dc9645be0489b8bd8a259, type: 3}
+    answer: "\u0441\u0435\u043C\u044C\u044F"
+    English: family
+  - questionImage:
+    - {fileID: 21300000, guid: 09efa11562c15144983565f7d581bc24, type: 3}
+    - {fileID: 21300000, guid: d4668cb75c4d97243824984af94770b2, type: 3}
+    - {fileID: 21300000, guid: 400587bb053b9e34297bf48d59ee027e, type: 3}
+    - {fileID: 21300000, guid: df1cfed70d5af9449887a3740c5a2a1a, type: 3}
+    answer: "\u0440\u0430\u0434\u0430\u0440"
+    English: radar
+  - questionImage:
+    - {fileID: 21300000, guid: 17324c57cf9382842981dfab45f76f30, type: 3}
+    - {fileID: 21300000, guid: 18c017d3b2556a34eaefc39d988e2ce1, type: 3}
+    - {fileID: 21300000, guid: 2837fc2b07eb528428a6c2221f7c9334, type: 3}
+    - {fileID: 21300000, guid: 3b6abdfc3c84aae499ff8b9b600a255b, type: 3}
+    answer: "\u043A\u043E\u0432\u0435\u0440"
+    English: Carpet
+  - questionImage:
+    - {fileID: 21300000, guid: 1c443eec7c0f8654b85f7da87a0d7165, type: 3}
+    - {fileID: 21300000, guid: 68dc1386044aaca46a5b3eb32b840706, type: 3}
+    - {fileID: 21300000, guid: 19b73bd7776ce3446a849c108990a5ab, type: 3}
+    - {fileID: 21300000, guid: 13435c80899fea4438b42b786e9e991e, type: 3}
+    answer: "\u043C\u0430\u0440\u043A\u0430"
+    English: stamp
+  - questionImage:
+    - {fileID: 21300000, guid: d1b5ee6ef9646fe4a830a384c301b9c4, type: 3}
+    - {fileID: 21300000, guid: dab381bebb8a03a46a379e5eea110672, type: 3}
+    - {fileID: 21300000, guid: 0a1b696cbedb0d8419366c5b53f0f676, type: 3}
+    - {fileID: 21300000, guid: 2b36f783c8ab12246b332ae6e7b76eaf, type: 3}
+    answer: "\u043C\u0430\u0441\u043A\u0430"
+    English: Mask
+  - questionImage:
+    - {fileID: 21300000, guid: ea8b60fc93b47db49a268714b96de06d, type: 3}
+    - {fileID: 21300000, guid: 31508f319c9ba9a4d9dd25532b5b5254, type: 3}
+    - {fileID: 21300000, guid: 4f5ff4b8bac8e554281622d89e4138b2, type: 3}
+    - {fileID: 21300000, guid: 5fd582e98e0c6064aa000e8a2b749ce4, type: 3}
+    answer: "\u043D\u043E\u0447\u044C"
+    English: Night
+  - questionImage:
+    - {fileID: 21300000, guid: 958c18c30d2db5b4182acae0d94fd3a5, type: 3}
+    - {fileID: 21300000, guid: f9e1100ad7539d94d90a1d0bdc179089, type: 3}
+    - {fileID: 21300000, guid: 69a7f5f080916f84580a1ac3ae18e647, type: 3}
+    - {fileID: 21300000, guid: aeaf9ee0c0547f74a988d082c4ceba93, type: 3}
+    answer: "\u043E\u0440\u0435\u0445"
+    English: Nuts
+  - questionImage:
+    - {fileID: 21300000, guid: 7583f0575db835249b093c5bc38b8c03, type: 3}
+    - {fileID: 21300000, guid: 366b2226b52443d4983790bd6adab487, type: 3}
+    - {fileID: 21300000, guid: c7107ac733a5fa94bb1ddf06f9af1851, type: 3}
+    - {fileID: 21300000, guid: e8316036d8033b54783926a0af6d4d25, type: 3}
+    answer: "\u0440\u0443\u0436\u044C\u0435"
+    English: gun
+  - questionImage:
+    - {fileID: 21300000, guid: 425e59f5d1be700428880e80416956ee, type: 3}
+    - {fileID: 21300000, guid: 80bd493d7d272fa44bc5ad00fa85fce5, type: 3}
+    - {fileID: 21300000, guid: b76dd907635add142a609ca1f7cac2e8, type: 3}
+    - {fileID: 21300000, guid: fd1373c64368d1b4ebde8e21a62e8631, type: 3}
+    answer: "\u0442\u043E\u0441\u043A\u0430"
+    English: anguish
+  - questionImage:
+    - {fileID: 21300000, guid: 144c00ddb0a865e43b952bc712bcd839, type: 3}
+    - {fileID: 21300000, guid: 5396f4a0e811d4240ac39667f205f1b2, type: 3}
+    - {fileID: 21300000, guid: 1adc6fc353c68784b81bdc3d11a27c17, type: 3}
+    - {fileID: 21300000, guid: 154c6209ba862694cbebeac187aec046, type: 3}
+    answer: "\u0442\u0440\u0443\u0431\u0430"
+    English: pipe
+  - questionImage:
+    - {fileID: 21300000, guid: ff170ffedf176ae4bb25900d1a2d46b6, type: 3}
+    - {fileID: 21300000, guid: 57b17258714fd6e4b9a4089741c6e670, type: 3}
+    - {fileID: 21300000, guid: c48d78b711cc6a742916567ded337897, type: 3}
+    - {fileID: 21300000, guid: b86593dcdb8f9a640865e0031812f37e, type: 3}
+    answer: "\u0442\u0443\u043C\u0430\u043D"
+    English: Fog
+  - questionImage:
+    - {fileID: 21300000, guid: 206f95feb41bcc74a8b16ca15c78d2db, type: 3}
+    - {fileID: 21300000, guid: cb20c79170b376c4d85eb0151ff43549, type: 3}
+    - {fileID: 21300000, guid: 7a55abc2e3c376b43a622c2c6dcc1c55, type: 3}
+    - {fileID: 21300000, guid: 1a7ccf90cb558544c8b9175cddf1e66d, type: 3}
+    answer: "\u0448\u0443\u0442\u043A\u0430"
+    English: joke
+  - questionImage:
+    - {fileID: 21300000, guid: ae4a464f15e05a74d9c40e5c77d5ac18, type: 3}
+    - {fileID: 21300000, guid: 3cfaab72981a37544bd835a5a6e6017f, type: 3}
+    - {fileID: 21300000, guid: fb0e8a80899a1844187117b90bf2e8f5, type: 3}
+    - {fileID: 21300000, guid: e5f57b3ac07571642b80287812cc2027, type: 3}
+    answer: "\u0432\u0430\u0437\u0430"
+    English: Vase
+  - questionImage:
+    - {fileID: 21300000, guid: 282f20662f7d52a428d9a2f3f7e371a8, type: 3}
+    - {fileID: 21300000, guid: e8178168ee5edf34dacb5c23fe404ad3, type: 3}
+    - {fileID: 21300000, guid: d2409cbc24b43db4fad98c554d63de2e, type: 3}
+    - {fileID: 21300000, guid: fb8763a6ef5b3ee48b7bcc8a16f04e52, type: 3}
+    answer: "\u0433\u0440\u0438\u0431"
+    English: Mushroom
+  - questionImage:
+    - {fileID: 21300000, guid: 401dea410455493438cab8c520eebc82, type: 3}
+    - {fileID: 21300000, guid: 7f50068037e7eff498fb0847dce6aaf2, type: 3}
+    - {fileID: 21300000, guid: 0ecb3021d25f1f34e8ede1d19f50670d, type: 3}
+    - {fileID: 21300000, guid: 6e3bf3d7dd730d546bad6b26b20b1c1d, type: 3}
+    answer: "\u0437\u043C\u0435\u044F"
+    English: snake
+  - questionImage:
+    - {fileID: 21300000, guid: 34a53fc2c8e36b34a86ff4f2dc1e429c, type: 3}
+    - {fileID: 21300000, guid: f1212f037dbb6eb48ab06a6441d14e6a, type: 3}
+    - {fileID: 21300000, guid: d04eb425299c4f744bbf045ac66f4ec1, type: 3}
+    - {fileID: 21300000, guid: 005243b88af79814eb5faa7520bd671e, type: 3}
+    answer: "\u043A\u043E\u0434"
+    English: code
+  - questionImage:
+    - {fileID: 21300000, guid: 3bb5833d7815c48409868fc16405a8c8, type: 3}
+    - {fileID: 21300000, guid: bb9dd34fc7ebea34c80d9a327724ab10, type: 3}
+    - {fileID: 21300000, guid: 24f334a26c6de3d4ab7f653d3ce2f9e1, type: 3}
+    - {fileID: 21300000, guid: 84139431fc959af44b5a7a939e32acc4, type: 3}
+    answer: "\u043A\u043E\u0441\u0430"
+    English: Scythe
+  - questionImage:
+    - {fileID: 21300000, guid: d16100c204fe635448839c0f66ff8db9, type: 3}
+    - {fileID: 21300000, guid: 9fa7afdc68382f74f9d42bf8225bf701, type: 3}
+    - {fileID: 21300000, guid: dc3fe7cd7b49e5c46ab232130cacb381, type: 3}
+    - {fileID: 21300000, guid: 6ee1b81f5758a764b9b32bb2b139cb33, type: 3}
+    answer: "\u043A\u0440\u0430\u0431"
+    English: Crab
+  - questionImage:
+    - {fileID: 21300000, guid: 924c6afa107f7be42a70fe5cb95f5cc4, type: 3}
+    - {fileID: 21300000, guid: c2a193e3300078c4d8b9aa7ad01e34b3, type: 3}
+    - {fileID: 21300000, guid: fdb2160e074674c42ad631b6b9a1703f, type: 3}
+    - {fileID: 21300000, guid: 304628f2723d14844be44c5eed3b16ec, type: 3}
+    answer: "\u043A\u0443\u0441\u0442"
+    English: Bush
+  - questionImage:
+    - {fileID: 21300000, guid: 9759e2e6fb33d0249bd97eea751295c3, type: 3}
+    - {fileID: 21300000, guid: 215100191126d634aa35631e94793237, type: 3}
+    - {fileID: 21300000, guid: 69e78e51d26cc5644a9d700e03a26ed4, type: 3}
+    - {fileID: 21300000, guid: 260bf53bd12ff6e488ce149797ec49c7, type: 3}
+    answer: "\u043B\u0435\u0441"
+    English: Forest
+  - questionImage:
+    - {fileID: 21300000, guid: faf118ba739f567449b5379e981bec4d, type: 3}
+    - {fileID: 21300000, guid: ef757994a17fd09438377710695bfdfd, type: 3}
+    - {fileID: 21300000, guid: 159515ceb17aff34a9f9c4a49672e734, type: 3}
+    - {fileID: 21300000, guid: 8dcf574f320f02d49921459ac63c4b77, type: 3}
+    answer: "\u043B\u0438\u0441\u0430"
+    English: Fox
+  - questionImage:
+    - {fileID: 21300000, guid: fd957b0a81e63a84ab9654745cbc1366, type: 3}
+    - {fileID: 21300000, guid: 18cbd49ec97ccc14998db59e996804ee, type: 3}
+    - {fileID: 21300000, guid: 758dc2a8e34cfee42ad008c32d0d5741, type: 3}
+    - {fileID: 21300000, guid: e8ba8ce753c2c4a41a6bd24764b53a96, type: 3}
+    answer: "\u043B\u0438\u0441\u0442"
+    English: Sheet
+  - questionImage:
+    - {fileID: 21300000, guid: 87366a67c2f7c2e4cab43d302e24e299, type: 3}
+    - {fileID: 21300000, guid: 862d0f3c9dcc7da46bbe6af28431e748, type: 3}
+    - {fileID: 21300000, guid: 079df03c34f6de843af8f02c13c06163, type: 3}
+    - {fileID: 21300000, guid: a2820bcd5fcb1fc409b56b116b1f75b0, type: 3}
+    answer: "\u043B\u0443\u043A"
+    English: Onion
+  - questionImage:
+    - {fileID: 21300000, guid: c1d22042674d012439280c463a5cf5a0, type: 3}
+    - {fileID: 21300000, guid: 6fc991d5af617e64088b784fc8eba7b2, type: 3}
+    - {fileID: 21300000, guid: 5d12944bc061e0f4fbf4366f99b74cc9, type: 3}
+    - {fileID: 21300000, guid: 51c7aacecb023074f8a464e9f6c7ea27, type: 3}
+    answer: "\u043C\u0435\u0447"
+    English: Sword
+  - questionImage:
+    - {fileID: 21300000, guid: c0f3a84a62b8a1846a97bea17c209d7c, type: 3}
+    - {fileID: 21300000, guid: 1e7cb6abf5cf4b44e8c95df2116f52aa, type: 3}
+    - {fileID: 21300000, guid: 0e8eb69831910e8478ab0ee903587207, type: 3}
+    - {fileID: 21300000, guid: f7f3222107797f34eb2d4ce48af8d56c, type: 3}
+    answer: "\u043C\u0438\u0440"
+    English: World
+  - questionImage:
+    - {fileID: 21300000, guid: 68ae9970314936c44aab36dccd51c23c, type: 3}
+    - {fileID: 21300000, guid: c23de029cc9f82e4b852dd033fc28bd6, type: 3}
+    - {fileID: 21300000, guid: 5df0573f215464e4ca325704be7b3692, type: 3}
+    - {fileID: 21300000, guid: 6c36a8dba34a8ff48bf83d87737b4f01, type: 3}
+    answer: "\u043C\u044F\u0447"
+    English: ball
+  - questionImage:
+    - {fileID: 21300000, guid: 1d7a86e62a8b0d34c96815e2bd46395f, type: 3}
+    - {fileID: 21300000, guid: dc548688de0af5f4bbf79cc5e2f6379d, type: 3}
+    - {fileID: 21300000, guid: f703ef358f26273449d1fe4e1ae1c1b0, type: 3}
+    - {fileID: 21300000, guid: 8051b85e6e1b734418a6d249e3745fcc, type: 3}
+    answer: "\u043D\u043E\u0441"
+    English: nose
+  - questionImage:
+    - {fileID: 21300000, guid: 84001f31ec7edb74a8df61665d06ed3a, type: 3}
+    - {fileID: 21300000, guid: 9c2865bee00eb8e40be75c56ab0a7fea, type: 3}
+    - {fileID: 21300000, guid: 3a43dba5c0ed6534b9418980a7820071, type: 3}
+    - {fileID: 21300000, guid: be0762f52d9da9343b9f2fdc89f59447, type: 3}
+    answer: "\u043D\u043E\u0442\u0430"
+    English: Note
+  - questionImage:
+    - {fileID: 21300000, guid: 03a563ead5578f84ba4e3b054195e8ba, type: 3}
+    - {fileID: 21300000, guid: b497fbf10ee6fcf42ab13e729f52fdf3, type: 3}
+    - {fileID: 21300000, guid: f0f5dd35e9698fd41a19c7f2c4ae8da8, type: 3}
+    - {fileID: 21300000, guid: 031144074da84304cbbf3b7887c914bb, type: 3}
+    answer: "\u043E\u0441\u0435\u043B"
+    English: donkey
+  - questionImage:
+    - {fileID: 21300000, guid: fc9195cb145e88942b259741ba16a86d, type: 3}
+    - {fileID: 21300000, guid: 33f4736d489a9094e83c507534bc0d1d, type: 3}
+    - {fileID: 21300000, guid: eab4f35e54a79c54186d27573966a4ff, type: 3}
+    - {fileID: 21300000, guid: 4000d86398c00eb47b91b8f1be063309, type: 3}
+    answer: "\u0440\u043E\u043C"
+    English: Rum
+  - questionImage:
+    - {fileID: 21300000, guid: 96852ef9bb07b3b40b6d0d7dacc12ba0, type: 3}
+    - {fileID: 21300000, guid: aab98d7b5d995bc4c9b896f5421edb88, type: 3}
+    - {fileID: 21300000, guid: 54d5a0ce2399948419f35247d4622b8e, type: 3}
+    - {fileID: 21300000, guid: 194de7c5e3aed054eb895b5bb1b433cb, type: 3}
+    answer: "\u0441\u0438\u043B\u0430"
+    English: Power
+  - questionImage:
+    - {fileID: 21300000, guid: 0d49391dd621abe46b37d0eafdd26fbe, type: 3}
+    - {fileID: 21300000, guid: 445091834b5588e4ba2b9edf5b189a9c, type: 3}
+    - {fileID: 21300000, guid: d693ebe5b9a162a448a27bedfa6c1109, type: 3}
+    - {fileID: 21300000, guid: 1bad64e461720e545b255c8dee53e982, type: 3}
+    answer: "\u0441\u043E\u043D"
+    English: Sleep
+  - questionImage:
+    - {fileID: 21300000, guid: d9bb227ce1c9a5f439ecfc8a7990144a, type: 3}
+    - {fileID: 21300000, guid: 81a02e835c6f43b478ff339eb23bf653, type: 3}
+    - {fileID: 21300000, guid: 8bb5d557ae532894092009c869821841, type: 3}
+    - {fileID: 21300000, guid: e5a42cfea2f9c7c4590ed19931d8d209, type: 3}
+    answer: "\u0441\u0442\u043E\u043B"
+    English: Table
+  - questionImage:
+    - {fileID: 21300000, guid: c715abb042db2374e8a8cd238786da57, type: 3}
+    - {fileID: 21300000, guid: f5a6f28093a25fb44908ceb657e5ec29, type: 3}
+    - {fileID: 21300000, guid: 66e8938d8b7a75f46a22768be7f7ee15, type: 3}
+    - {fileID: 21300000, guid: 53995b56ae2c4684f84dce47228335ec, type: 3}
+    answer: "\u0441\u044B\u0440"
+    English: cheese
+  - questionImage:
+    - {fileID: 21300000, guid: 38b33b3e6e410bd4681c224cebd47752, type: 3}
+    - {fileID: 21300000, guid: 0585a87190e1ec44dbebff7311f77730, type: 3}
+    - {fileID: 21300000, guid: ad9e1ac45ec42694f856ea07d2a6a79e, type: 3}
+    - {fileID: 21300000, guid: d18c3d743b2b3404eb0e2110203202e3, type: 3}
+    answer: "\u0446\u0438\u0440\u043A"
+    English: circus
+  - questionImage:
+    - {fileID: 21300000, guid: 727b87a14b4773a42ac5511ec29a35c2, type: 3}
+    - {fileID: 21300000, guid: 710de644605d09744a29c7fe0a7a6724, type: 3}
+    - {fileID: 21300000, guid: 5181fcdea9d01a847af1caba8b9da2df, type: 3}
+    - {fileID: 21300000, guid: f18e11d7d5bb26c47aa9b89cdc34df6d, type: 3}
+    answer: "\u0448\u0430\u0440\u0444"
+    English: scarf
+  - questionImage:
+    - {fileID: 21300000, guid: e92647c80d57d644aaed602a9d733c3d, type: 3}
+    - {fileID: 21300000, guid: 180630868d48227429d697b2a5d7020f, type: 3}
+    - {fileID: 21300000, guid: 5dbc6db9f2f4a504386225b7af1ce54c, type: 3}
+    - {fileID: 21300000, guid: 5c868122999b41b47abca0655f285f5e, type: 3}
+    answer: "\u0441\u0443\u0434\u044C\u044F"
+    English: judge
+  - questionImage:
+    - {fileID: 21300000, guid: 424e67ec8ec7c0042a19b69ee887658f, type: 3}
+    - {fileID: 21300000, guid: 088255f6fc905784aa39352f29f046c3, type: 3}
+    - {fileID: 21300000, guid: f28948e508dbefe44b34de42b8d80b9a, type: 3}
+    - {fileID: 21300000, guid: ed6932e0f8c36f245b7f79ebca8a03c0, type: 3}
+    answer: "\u0442\u0430\u043B\u0438\u044F"
+    English: waist
+  - questionImage:
+    - {fileID: 21300000, guid: ea7895c55cfc95e44bc76676d29be19c, type: 3}
+    - {fileID: 21300000, guid: b60b4af2afca4514d96926e94d2c5aed, type: 3}
+    - {fileID: 21300000, guid: cfdd580d78938544b813ca8af3e9f363, type: 3}
+    - {fileID: 21300000, guid: 437e0f8156bbf314088b5442f8ccb3e0, type: 3}
+    answer: "\u0448\u0435\u0440\u0441\u0442\u044C"
+    English: wool
+  - questionImage:
+    - {fileID: 21300000, guid: 3c4a9b78adbf89f4aa35e48f3287016e, type: 3}
+    - {fileID: 21300000, guid: 576951c9e71370c4fb59d2bee04f6abd, type: 3}
+    - {fileID: 21300000, guid: 818dd3d645b298e4fb2827d0759160b8, type: 3}
+    - {fileID: 21300000, guid: 8287679099777b5409caf6919902b567, type: 3}
+    answer: "\u0448\u043E\u0440\u0442\u044B"
+    English: shorts
+  - questionImage:
+    - {fileID: 21300000, guid: 695241a863dea55419b4d38e98e2761c, type: 3}
+    - {fileID: 21300000, guid: 0584b916256e47543bff063456f5a4e5, type: 3}
+    - {fileID: 21300000, guid: ac7643cbe7586c6408fc975469746947, type: 3}
+    - {fileID: 21300000, guid: 74d67fab515bee942a3584ad15894e9e, type: 3}
+    answer: "\u0430\u0434\u0440\u0435\u0441"
+    English: address
+  - questionImage:
+    - {fileID: 21300000, guid: 240953ba0ef6d2c4f81b87ce4b2aeb82, type: 3}
+    - {fileID: 21300000, guid: f2069667f0b7a37468f68296d9a3cf65, type: 3}
+    - {fileID: 21300000, guid: 9a4328f69ceb7df41abebfa60de10b1f, type: 3}
+    - {fileID: 21300000, guid: a42f15f11ab52e54c986663f382d3ae7, type: 3}
+    answer: "\u0430\u043A\u0442\u0435\u0440"
+    English: actor
+  - questionImage:
+    - {fileID: 21300000, guid: 8ab6a6db61c8711489051aa8f9c5b3e4, type: 3}
+    - {fileID: 21300000, guid: 7d8570ccc8d74234fb9acf0e3acb8e9e, type: 3}
+    - {fileID: 21300000, guid: 7bc30cf58ee02384799419936f1e8c05, type: 3}
+    - {fileID: 21300000, guid: e855e4c3ede45fe43ade8ce728e01d40, type: 3}
+    answer: "\u0430\u043C\u0444\u043E\u0440\u0430"
+    English: amphora
+  - questionImage:
+    - {fileID: 21300000, guid: 725effa0b934995489a600817159939b, type: 3}
+    - {fileID: 21300000, guid: 3f0274c741bb99b408f855bfac103001, type: 3}
+    - {fileID: 21300000, guid: f34915d4b577ad44492a4f659608fbd6, type: 3}
+    - {fileID: 21300000, guid: ee5ae1bab0ce83844846428e256ba97d, type: 3}
+    answer: "\u0430\u0440\u0435\u043D\u0430"
+    English: arena
+  - questionImage:
+    - {fileID: 21300000, guid: c49b7c4a694a46149a701025fec2f7de, type: 3}
+    - {fileID: 21300000, guid: 8f42538bcf212bb4a844bf1e6f295648, type: 3}
+    - {fileID: 21300000, guid: 14dbb927cde0c7440a653386456fe64d, type: 3}
+    - {fileID: 21300000, guid: 6109e7119f7cbec4b98a09977574640f, type: 3}
+    answer: "\u0430\u0440\u0435\u0441\u0442"
+    English: arrest
+  - questionImage:
+    - {fileID: 21300000, guid: 0665bba2dc9db6547863cbe46439866d, type: 3}
+    - {fileID: 21300000, guid: df71055f76d79f24fab0898f10282b75, type: 3}
+    - {fileID: 21300000, guid: a545b4b9920e15141950fa8fb3f2431d, type: 3}
+    - {fileID: 21300000, guid: 1457e45708a517c42af7efc8d2c36c7f, type: 3}
+    answer: "\u0431\u0435\u0440\u0435\u0442"
+    English: beret
+  - questionImage:
+    - {fileID: 21300000, guid: a6cbf4c213d84d241b5d14c0f5f69c6b, type: 3}
+    - {fileID: 21300000, guid: 3a9999b1b2282434f8436bc7f58244e9, type: 3}
+    - {fileID: 21300000, guid: d54ac3154c740da499eb7e90141f5be2, type: 3}
+    - {fileID: 21300000, guid: 4838b39fa0c690c46a79e3bc5cfe9731, type: 3}
+    answer: "\u0432\u0434\u043E\u0432\u0430"
+    English: widow
+  - questionImage:
+    - {fileID: 21300000, guid: f68e6c53a2d03424c8022060b2a0bbd8, type: 3}
+    - {fileID: 21300000, guid: d3c2b30c81726d14b925eeca8c886219, type: 3}
+    - {fileID: 21300000, guid: 611c9c6384fb1434bb8e09b4f0dcf101, type: 3}
+    - {fileID: 21300000, guid: d9f586966ac18564787529b160a55acb, type: 3}
+    answer: "\u0432\u0435\u043D\u0438\u043A"
+    English: broom
+  - questionImage:
+    - {fileID: 21300000, guid: bffbd6f979714e949a967856b9b153aa, type: 3}
+    - {fileID: 21300000, guid: 408554a4f6c3a854ba2e880e17688013, type: 3}
+    - {fileID: 21300000, guid: 7b1749aef0125244c8bc23986631110c, type: 3}
+    - {fileID: 21300000, guid: 8b6acb9128a442c41b45b9a0146d6125, type: 3}
+    answer: "\u0432\u0435\u0440\u0444\u044C"
+    English: shipyard
+  - questionImage:
+    - {fileID: 21300000, guid: af7b878b55bf80444858a2915e76ba5e, type: 3}
+    - {fileID: 21300000, guid: 3032a5135c9750346a61fe75a60f3363, type: 3}
+    - {fileID: 21300000, guid: b25023d54f78b5746b105ef595f60b64, type: 3}
+    - {fileID: 21300000, guid: f0db974104554ba4387a6a8f506bc42c, type: 3}
+    answer: "\u0432\u0435\u0441\u043B\u043E"
+    English: paddle
+  - questionImage:
+    - {fileID: 21300000, guid: a2759b4dc10712d47ae5405b91e9464c, type: 3}
+    - {fileID: 21300000, guid: e161b4e1a21dcd24e9b15682df3967c1, type: 3}
+    - {fileID: 21300000, guid: 540804eb7f9eb1547af47df872fe1189, type: 3}
+    - {fileID: 21300000, guid: e697c404d4f10194ea269b6d1d850251, type: 3}
+    answer: "\u0432\u0435\u0442\u0435\u0440"
+    English: wind
+  - questionImage:
+    - {fileID: 21300000, guid: 4c5e254bc87413b4984702ad9d78fd55, type: 3}
+    - {fileID: 21300000, guid: 577aa8536779b9e4fbe8265618f41e31, type: 3}
+    - {fileID: 21300000, guid: 16472c9d60ecbb744af7fb5a7e8bf503, type: 3}
+    - {fileID: 21300000, guid: b5885449f4291a34b95f8a6b0379778e, type: 3}
+    answer: "\u0432\u043E\u043B\u043D\u0430"
+    English: wave
+  - questionImage:
+    - {fileID: 21300000, guid: 6424508bbe4013c4d9fc9373ae293235, type: 3}
+    - {fileID: 21300000, guid: 82835a6ba6b000545b62d14f318adcbe, type: 3}
+    - {fileID: 21300000, guid: 5897939b5b7ef324f9c884f04aa03fc7, type: 3}
+    - {fileID: 21300000, guid: 4132d1d10c5c3eb45b82b3d0970ba0ad, type: 3}
+    answer: "\u0432\u044B\u0431\u043E\u0440"
+    English: choice
+  - questionImage:
+    - {fileID: 21300000, guid: 74c190e422246014b89b0549142c9e71, type: 3}
+    - {fileID: 21300000, guid: ce218e333e87901428b4dc6aba3e4703, type: 3}
+    - {fileID: 21300000, guid: 38cbfb16cedf9fe4d8483cd286fd0744, type: 3}
+    - {fileID: 21300000, guid: 07f4ef89b70eb6c45b3295cf98cb831c, type: 3}
+    answer: "\u0433\u043E\u043B\u043E\u0434"
+    English: hunger
+  - questionImage:
+    - {fileID: 21300000, guid: 805a14a898294aa4aa3b70fc85de46b5, type: 3}
+    - {fileID: 21300000, guid: 04e085e11a2412348abce55f2bd1162d, type: 3}
+    - {fileID: 21300000, guid: 95f8d1c86097a7f4598cabe4e815b377, type: 3}
+    - {fileID: 21300000, guid: 5a24d44e3dc526d468941d61fcb34f7c, type: 3}
+    answer: "\u0433\u043E\u043D\u043A\u0430"
+    English: race
+  - questionImage:
+    - {fileID: 21300000, guid: 48c93a3d2c035564abdf981033c30061, type: 3}
+    - {fileID: 21300000, guid: fb5d5c406350c224ab460c2f4edf6b9e, type: 3}
+    - {fileID: 21300000, guid: b604db8cb28fb2148bcf7face8a2c6d8, type: 3}
+    - {fileID: 21300000, guid: 75d2f397eb4c00a498f97dc9a6c68ee8, type: 3}
+    answer: "\u0433\u043E\u0441\u0442\u044C"
+    English: visitor
+  - questionImage:
+    - {fileID: 21300000, guid: 0814d4035a7591c4b8962d4a237bd93f, type: 3}
+    - {fileID: 21300000, guid: 2347db523beb87b4bbf4cd264df5fccf, type: 3}
+    - {fileID: 21300000, guid: 7531a2fe00a4b7f4d8cec017129c2d0a, type: 3}
+    - {fileID: 21300000, guid: 8a7f0dd92750fee4784e9f9714f5fa55, type: 3}
+    answer: "\u0433\u0440\u0438\u0432\u0430"
+    English: mane
+  - questionImage:
+    - {fileID: 21300000, guid: d8afdb323f0d5ac4b90dbcfa0c67d382, type: 3}
+    - {fileID: 21300000, guid: 47faae7ba25abaa41b5e8c5cb0904247, type: 3}
+    - {fileID: 21300000, guid: 3052dcbdcb69fd3439a9403d592b924f, type: 3}
+    - {fileID: 21300000, guid: e2a793e8a5687134596b8a033b3430ab, type: 3}
+    answer: "\u0434\u0435\u043C\u043E\u043D"
+    English: demon
+  - questionImage:
+    - {fileID: 21300000, guid: b683bd06992299544ae65fd527b8b150, type: 3}
+    - {fileID: 21300000, guid: d503966f37e14c5459922ccc43533e13, type: 3}
+    - {fileID: 21300000, guid: 0c46f646293da82469f441972ff4a101, type: 3}
+    - {fileID: 21300000, guid: 56e9d84ad4ac3d146a0505c0279d14f0, type: 3}
+    answer: "\u0434\u0437\u044E\u0434\u043E"
+    English: judo
+  - questionImage:
+    - {fileID: 21300000, guid: 434f91a5d6d32f74e85480d22e44b12c, type: 3}
+    - {fileID: 21300000, guid: 432ec0fc861763843916acb349b27fb6, type: 3}
+    - {fileID: 21300000, guid: 1d292e6d993e5fd4b84f823a826713b1, type: 3}
+    - {fileID: 21300000, guid: d187348edfdd8264ba87ea4c83928320, type: 3}
+    answer: "\u0434\u0438\u0435\u0442\u0430"
+    English: diet
+  - questionImage:
+    - {fileID: 21300000, guid: 8da4fea1bd1958e42b9ab15cf4b73f52, type: 3}
+    - {fileID: 21300000, guid: 7fc39f4102cd6354892881605781982f, type: 3}
+    - {fileID: 21300000, guid: fa37976e7aa9a414682006f9888c66f4, type: 3}
+    - {fileID: 21300000, guid: 90b16be477b5df344b64a75b143ecddd, type: 3}
+    answer: "\u0437\u0430\u043A\u0430\u0437"
+    English: order
+  - questionImage:
+    - {fileID: 21300000, guid: db9f0ac6faecfdd499d9fa1b0e143d5e, type: 3}
+    - {fileID: 21300000, guid: ae5a4988722d1f346a33bd12c5634221, type: 3}
+    - {fileID: 21300000, guid: 0b3b8f608aa546747baa8b8a7a9f9ee2, type: 3}
+    - {fileID: 21300000, guid: 8044ebc5a2a5ee44f9bf9bdbb84e406e, type: 3}
+    answer: "\u043B\u0438\u0434\u0435\u0440"
+    English: leader
+  - questionImage:
+    - {fileID: 21300000, guid: baf6c872bebfbe947a11a38c5bbbfda3, type: 3}
+    - {fileID: 21300000, guid: 88b13152312dd33479518eb371072e33, type: 3}
+    - {fileID: 21300000, guid: cc5d2e5f7680aae49aaf53c8e134860e, type: 3}
+    - {fileID: 21300000, guid: e9a5be0e03c326e45a6cb490bfce69f7, type: 3}
+    answer: "\u043D\u0430\u0432\u0435\u0441"
+    English: canopy
+  - questionImage:
+    - {fileID: 21300000, guid: 2439a84c6e09bb749a146f0e2c89052c, type: 3}
+    - {fileID: 21300000, guid: 90eea5bef2de5924b9736d900d4ebfaa, type: 3}
+    - {fileID: 21300000, guid: 23b5a532f544d40428a3074def06c476, type: 3}
+    - {fileID: 21300000, guid: 76bb1454d13befe4fb32d9a5a01f300a, type: 3}
+    answer: "\u043E\u0430\u0437\u0438\u0441"
+    English: oasis
+  - questionImage:
+    - {fileID: 21300000, guid: ec0ec87a4d2d32943b4da877cc00460f, type: 3}
+    - {fileID: 21300000, guid: 2f7ccae5f77663244ba44c6f62921209, type: 3}
+    - {fileID: 21300000, guid: a78b393e5247404458c84450d802ba67, type: 3}
+    - {fileID: 21300000, guid: 5e79ab2f7aea2754e9af50bef9e296a6, type: 3}
+    answer: "\u043F\u043E\u043A\u0435\u0440"
+    English: poker
